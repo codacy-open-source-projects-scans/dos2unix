@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # Requires perl-Test-Simple installation.
-use Test::Simple tests => 17;
+use Test::Simple tests => 20;
 
 $suffix = "";
 if (-e "../dos2unix.exe") {
@@ -48,6 +48,18 @@ ok( $result == 0, 'Dos2unix returns zero on skipping binary input.' );
 system("$UNIX2DOS -v -n utf16len.txt out.txt");
 $result = ($? >> 8);
 ok( $result == 0, 'Unix2dos returns zero on skipping binary input.' );
+
+system("$DOS2UNIX -v --error-binary -n utf16len.txt out.txt");
+$result = ($? >> 8);
+ok( $result == 1, 'Dos2unix returns error on skipping binary input.' );
+
+system("$DOS2UNIX -v --error-binary --no-error-binary -n utf16len.txt out.txt");
+$result = ($? >> 8);
+ok( $result == 0, 'Dos2unix returns no error on skipping binary input.' );
+
+system("$UNIX2DOS -v --error-binary -n utf16len.txt out.txt");
+$result = ($? >> 8);
+ok( $result == 1, 'Unix2dos returns error on skipping binary input.' );
 
 system("$DOS2UNIX -v -f -n utf16len.txt out.txt");
 $result = ($? >> 8);
