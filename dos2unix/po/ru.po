@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dos2unix-7.5.2-beta2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 22:05+0100\n"
+"POT-Creation-Date: 2026-03-15 21:19+0100\n"
 "PO-Revision-Date: 2023-11-10 18:10+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@d07.ru>\n"
@@ -37,22 +37,22 @@ msgstr ""
 "Все права защищены.\n"
 "\n"
 
-#: dos2unix.c:164 dos2unix.c:243 dos2unix.c:371 dos2unix.c:449 unix2dos.c:190
+#: dos2unix.c:168 dos2unix.c:247 dos2unix.c:379 dos2unix.c:457 unix2dos.c:190
 #: unix2dos.c:268 unix2dos.c:382 unix2dos.c:458
 msgid "Added line break to last line.\n"
 msgstr "Добавлен разрыв строки в последнюю строку.\n"
 
-#: dos2unix.c:290 dos2unix.c:533 unix2dos.c:313 unix2dos.c:542
+#: dos2unix.c:294 dos2unix.c:541 unix2dos.c:313 unix2dos.c:542
 #, c-format
 msgid "program error, invalid conversion mode %d\n"
 msgstr "ошибка в программе, неверный режим преобразования %d\n"
 
-#: dos2unix.c:512 unix2dos.c:523
+#: dos2unix.c:520 unix2dos.c:523
 #, c-format
 msgid "using code page %d.\n"
 msgstr "используется кодировка %d.\n"
 
-#: dos2unix.c:571 unix2dos.c:580
+#: dos2unix.c:579 unix2dos.c:580
 msgid "error: Value of environment variable DOS2UNIX_LOCALEDIR is too long.\n"
 msgstr "ошибка: Значение переменной окружения DOS2UNIX_LOCALEDIR слишком длинное.\n"
 

@@ -93,9 +93,13 @@ int dos2unixW(FILE *ipInF, FILE *ipOutF, CFlag *ipFlag, const char *progname) {
     unsigned int converted = 0;
 
     PreviousChar = d2u_getwc(ipInF, ipFlag->bomtype);
-    if (PreviousChar == WEOF && ferror(ipInF)) {
-        d2u_getc_error(ipFlag, progname);
-        return -1;
+    if (PreviousChar == WEOF) {
+        if (ferror(ipInF)) {
+           d2u_getc_error(ipFlag, progname);
+           return -1;
+        }
+        logConverted(0, ipFlag->verbose, progname, converted, line_nr);
+        return 0; /* empty file */
     }
     if ((ipFlag->Force == 0) && binaryCharW(PreviousChar)) {
         ipFlag->status |= BINARY_FILE;
@@ -304,9 +308,13 @@ int dos2unix(FILE *ipInF, FILE *ipOutF, CFlag *ipFlag, const char *progname,
     unsigned int converted = 0;
 
     PreviousChar = fgetc(ipInF);
-    if (PreviousChar == EOF && ferror(ipInF)) {
-        d2u_getc_error(ipFlag, progname);
-        return -1;
+    if (PreviousChar == EOF) {
+        if (ferror(ipInF)) {
+           d2u_getc_error(ipFlag, progname);
+           return -1;
+        }
+        logConverted(0, ipFlag->verbose, progname, converted, line_nr);
+        return 0; /* empty file */
     }
     if ((ipFlag->Force == 0) && binaryChar(PreviousChar)) {
         ipFlag->status |= BINARY_FILE;

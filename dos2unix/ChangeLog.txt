@@ -1,3 +1,8 @@
+2026-03-15 Erwin Waterlander <waterlan@xs4all.nl>
+	* Fixed dos2unix error on empty input.
+	  Fixes https://sourceforge.net/p/dos2unix/bugs/22/
+	  Thanks to quyse.
+
 2026-03-03 Erwin Waterlander <waterlan@xs4all.nl>
 	* New option --error-binary: Return an error if a
 	  binary file is skipped.

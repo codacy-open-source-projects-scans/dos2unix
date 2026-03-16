@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dos2unix-7.5.2-beta2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 22:05+0100\n"
+"POT-Creation-Date: 2026-03-15 21:19+0100\n"
 "PO-Revision-Date: 2024-08-18 22:02+0200\n"
 "Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -34,23 +34,23 @@ msgstr ""
 "Tots els drets reservats.\n"
 "\n"
 
-#: dos2unix.c:164 dos2unix.c:243 dos2unix.c:371 dos2unix.c:449 unix2dos.c:190
+#: dos2unix.c:168 dos2unix.c:247 dos2unix.c:379 dos2unix.c:457 unix2dos.c:190
 #: unix2dos.c:268 unix2dos.c:382 unix2dos.c:458
 msgid "Added line break to last line.\n"
 msgstr "S'ha afegit un salt de línia a l'última línia.\n"
 
-#: dos2unix.c:290 dos2unix.c:533 unix2dos.c:313 unix2dos.c:542
+#: dos2unix.c:294 dos2unix.c:541 unix2dos.c:313 unix2dos.c:542
 #, c-format
 msgid "program error, invalid conversion mode %d\n"
 msgstr "error del programa, mode de conversió %d no vàlid\n"
 
-#: dos2unix.c:512 unix2dos.c:523
+#: dos2unix.c:520 unix2dos.c:523
 #, c-format
 msgid "using code page %d.\n"
 msgstr "s'està utilitzant la pàgina de codis %d.\n"
 
 #
-#: dos2unix.c:571 unix2dos.c:580
+#: dos2unix.c:579 unix2dos.c:580
 msgid "error: Value of environment variable DOS2UNIX_LOCALEDIR is too long.\n"
 msgstr "error: el valor de la variable d'entorn DOS2UNIX_LOCALEDIR és massa llarg.\n"
 

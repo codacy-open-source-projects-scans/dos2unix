@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dos2unix 7.5.3-beta8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 22:05+0100\n"
+"POT-Creation-Date: 2026-03-15 21:19+0100\n"
 "PO-Revision-Date: 2025-05-17 13:31+0200\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
@@ -46,12 +46,12 @@ msgstr ""
 "Toate drepturile rezervate.\n"
 "\n"
 
-#: dos2unix.c:164 dos2unix.c:243 dos2unix.c:371 dos2unix.c:449 unix2dos.c:190
+#: dos2unix.c:168 dos2unix.c:247 dos2unix.c:379 dos2unix.c:457 unix2dos.c:190
 #: unix2dos.c:268 unix2dos.c:382 unix2dos.c:458
 msgid "Added line break to last line.\n"
 msgstr "S-a adăugat o întrerupere de linie la ultima linie.\n"
 
-#: dos2unix.c:290 dos2unix.c:533 unix2dos.c:313 unix2dos.c:542
+#: dos2unix.c:294 dos2unix.c:541 unix2dos.c:313 unix2dos.c:542
 #, c-format
 msgid "program error, invalid conversion mode %d\n"
 msgstr "eroare de program, mod de conversie nevalid %d\n"
@@ -62,12 +62,12 @@ msgstr "eroare de program, mod de conversie nevalid %d\n"
 # → aici sunt 2 spații după „utilizează””
 # ***
 # Ok, corecție aplicată!
-#: dos2unix.c:512 unix2dos.c:523
+#: dos2unix.c:520 unix2dos.c:523
 #, c-format
 msgid "using code page %d.\n"
 msgstr "se utilizează pagina de cod %d.\n"
 
-#: dos2unix.c:571 unix2dos.c:580
+#: dos2unix.c:579 unix2dos.c:580
 msgid "error: Value of environment variable DOS2UNIX_LOCALEDIR is too long.\n"
 msgstr "eroare: Valoarea variabilei de mediu DOS2UNIX_LOCALEDIR este prea lungă.\n"
 

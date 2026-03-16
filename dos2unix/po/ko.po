@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dos2unix 7.5.3-beta8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 22:05+0100\n"
+"POT-Creation-Date: 2026-03-15 21:19+0100\n"
 "PO-Revision-Date: 2025-05-18 14:24+0900\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <translation-team-ko@googlegroups.com>\n"
@@ -36,22 +36,22 @@ msgstr ""
 "All rights reserved.\n"
 "\n"
 
-#: dos2unix.c:164 dos2unix.c:243 dos2unix.c:371 dos2unix.c:449 unix2dos.c:190
+#: dos2unix.c:168 dos2unix.c:247 dos2unix.c:379 dos2unix.c:457 unix2dos.c:190
 #: unix2dos.c:268 unix2dos.c:382 unix2dos.c:458
 msgid "Added line break to last line.\n"
 msgstr "개행 문자를 줄 마지막에 넣습니다.\n"
 
-#: dos2unix.c:290 dos2unix.c:533 unix2dos.c:313 unix2dos.c:542
+#: dos2unix.c:294 dos2unix.c:541 unix2dos.c:313 unix2dos.c:542
 #, c-format
 msgid "program error, invalid conversion mode %d\n"
 msgstr "프로그램 오류, 부적절한 %d번 변환 모드입니다\n"
 
-#: dos2unix.c:512 unix2dos.c:523
+#: dos2unix.c:520 unix2dos.c:523
 #, c-format
 msgid "using code page %d.\n"
 msgstr "%d 코드 페이지를 사용합니다.\n"
 
-#: dos2unix.c:571 unix2dos.c:580
+#: dos2unix.c:579 unix2dos.c:580
 msgid "error: Value of environment variable DOS2UNIX_LOCALEDIR is too long.\n"
 msgstr "오류: DOS2UNIX_LOCALEDIR 환경 변수 값이 너무 깁니다.\n"
 

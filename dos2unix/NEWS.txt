@@ -2,6 +2,7 @@
 
  * New option --error-binary: Return an error if a
    binary file is skipped.
+ * Fix: dos2unix error on empty input.
 
 2026-01-30: Version 7.5.4
 
